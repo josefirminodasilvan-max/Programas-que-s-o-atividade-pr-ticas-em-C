@@ -6,7 +6,7 @@ int main(){
     
     //Inserindo medidad em metros
     printf("Insira aqui o valor da medida em metros: ");
-    scanf()"%f", &medida_metros);
+    scanf("%f", &medida_metros);
 
     //calculo da medida em centímetros
     medida_centimetros = medida_metros * 100;
