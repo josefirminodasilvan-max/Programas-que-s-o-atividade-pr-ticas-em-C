@@ -15,6 +15,13 @@ int main(){
         }
         printf("\n");
     } 
+    printf("\n");
+    for(int l = base; l >= 1; l--){
+        for(int c = l; c >= 1; c--){
+            printf("*");
+        }
+        printf("\n");
+    }
 
     printf("FIM DO PROGRAMA...");
     return 0;
